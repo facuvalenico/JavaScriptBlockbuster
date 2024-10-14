@@ -1,0 +1,159 @@
+/* LIENZO */
+
+html {
+    min-height: 100%;
+    position: relative;
+    background-image:url(imagenes/alfombra.png);
+    background-repeat:repeat;
+}
+*{
+	margin : 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+    min-height: 100%;
+}
+
+/* TUBOS LUZ */
+.tubos {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    background-color: hsl(50, 100%, 42%);
+    margin-top: -1.5%;
+}
+
+.tubo {
+    width: 95%;
+    margin-inline: 2.5%;
+}
+
+/* PARED */
+.pared{
+    width: 100%;
+    height: 100%;
+    padding-top: 2.5%;
+    display:grid;
+    grid-template-columns: 5fr 1fr 5fr 1fr 5fr;
+    align-items:center;
+    background-color: hsl(50, 100%, 42%);
+} 
+pared img{
+    width: 100px;
+    padding-top: 5%;
+}
+#logo {
+    width: 55%;
+    margin-left: 25%;
+    margin-top: -8%;
+}
+#video{
+    width: 60%;
+    height: 85%;
+    margin-left: 25%; 
+    margin-bottom: 1.5%;   
+}
+
+.figura_flechaA{
+    width: 45%;
+    padding-top: 50%;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.figura_flechaS{
+    width: 45%;
+    padding-top: 50%;
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+.figura_cartel{
+    width: 15%;   
+    margin-bottom: -30%;    
+    margin-left: 2%;
+}
+
+.figura_chica{
+    width: 8.5%;   
+    margin-bottom: -3.5%;
+    margin-left: 87.5%;
+}
+/* MAIN-chica */
+.contenedor {   
+    margin-left: 20.35%;
+    height: 62.5%;
+    position: absolute;
+    width: 60%;
+    border-top: 15px ridge #804000;
+    border-radius: 5px;
+    border-left: 8px solid #ccb099;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:#642919;
+    overflow: hidden;
+    overflow-y: scroll;
+    osition:fixed;
+    ottom: 0;
+
+}
+
+/* .div{
+    background-color: hsl(50, 100%, 42%);
+    width: 100%;
+    text-align:justify;
+    position: absolute;
+    margin-top: 0%;
+} */
+
+.div{
+    background-color: hsl(50, 100%, 42%);
+    text-align:justify;
+    margin-top: 0%;
+    width: 100%;   
+    margin-bottom: -28%;    
+    argin-left: 5%;
+}
+
+/* MAIN-contenedor */
+/* MAIN-contenedor */
+.mueble {  
+    idth: 60%;  
+    argin-inline: 20%;    
+    argin-bottom: -10%;    
+}
+
+.pelicula {
+    position: relative;
+    background-color:#642919;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;   
+}
+.poster{
+    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+    border-top: 5px solid black;
+    border-left: 0.1px solid #848484;
+    border-radius: 5px;
+    width: 100%;
+    margin-block: 3%;
+}
+.lasRejas{
+    position: absolute;
+}
+.rejas{
+    width: 23%;
+    margin-top: 65%;
+}
+
+
+
+
+
+
+
